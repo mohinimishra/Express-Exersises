@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/coc-background.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.rad {
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.center-div{
+    margin-top: 1rem;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: -1px 15px 30px -10px black;
+    
+}
+
+.img-div{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+figure img{
+    width: 450px;
+    height:300px;
+    margin-top: 0px;
+    margin-left: -50px;
+}
+
+.about-div{
+    padding: 30px 15px;
+}
+
+.about-div h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ec9b3b;
+}
+.about-div h1{
+    text-transform: uppercase;
+    word-spacing: 3px;
+    font-size: 20px;
+    padding: 5px 0 0 0;
+    font-weight: bold;
+}
+.about-div p{
+    font-size: 14px;
+    color: #a5b1c2;
+}
+.lower-div{
+    padding: 5px 0;
+    color: white;
+    background-color: #ec9b3b;
+}
+.lower-div{
+   margin-bottom: 10px;
+}
+
+.radi{
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: #ec9b3b;
+}
