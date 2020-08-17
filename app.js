@@ -9,4 +9,4 @@ app.get('/', function (req, res) {
 })
 
 
-app.listen(3000, () => console.log('Server up n running on port 3000'))
+app.listen(000, () => console.log('Server up n running on port 3000'))
